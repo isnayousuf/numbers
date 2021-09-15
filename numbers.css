@@ -1,0 +1,259 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 200px);
+    grid-column-gap: 20px;
+}
+.box0{
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+    
+}
+.zero{
+    width: 4rem;
+    height: 6rem;
+    border: 3.5px solid red;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+
+}
+.box1{
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+    
+}
+.one{
+    width: 0;
+    height: 3rem;
+    border: 2px solid red;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+.one-1{
+    width: 0;
+    height: 3rem;
+    border: 2px solid red;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+
+
+.box2{
+    grid-column: 4 / 4;
+    grid-row: 1 / 2;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.two{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    position:relative;
+    border-left: none;
+    border-bottom: none;
+    left: 4rem;
+    top: 1.9rem;
+    transform: rotateZ();
+   
+}
+ .two-1{
+    width:  4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+   
+    border-right: none;
+  
+    position:relative;
+    left: 4rem;
+    top: 1.9rem;
+    
+
+}
+
+.box3{
+    grid-column: 5 / 5;
+    grid-row: 1 / 2;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.three{
+    width:  4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.three-1{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-left: none;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+
+}
+.three-2{
+    width: 3.5rem;
+    height: 0;
+    border: 2px solid red;
+    position: relative;
+    left: 4.3rem;
+    bottom: 1.5rem;
+}
+.box4{
+    grid-column: 6 / 6;
+    grid-row: 1 / 2;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.four{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-top: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+.four-1{
+    width: 0;
+    height: 3rem;
+    border: 2px solid red;
+    position: relative;
+    top: 2rem;
+    left: 8.2rem;
+
+}
+.box5{
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.five{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+.five-1{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-left: none;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+}
+.box6{
+    grid-column: 3 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.six{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+.six-1{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.box7{
+    grid-column: 4 / 4;
+    grid-row: 2 / 3;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.seven{
+    width: 4rem;
+    height: 6rem;
+    border: 3.5px solid red;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.box8{
+    grid-column: 5 / 5;
+    grid-row: 2 / 3;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.eight{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-bottom: none;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.eight-1{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.box9{
+    grid-column: 6 / 6;
+    grid-row: 2 / 3;
+    background-color: rgb(5, 4, 4);
+    margin-top: 2rem;
+}
+.nine{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+}
+.nine-1{
+    width: 4rem;
+    height: 3rem;
+    border: 3.5px solid red;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    top: 2rem;
+    left: 4.27rem;
+
+}
